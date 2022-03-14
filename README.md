@@ -1,7 +1,7 @@
 # RIpetrel-consistency
 ### Individual consistency in migration strategies of a tropical seabird, the Round Island petrel
 
-Archive of analysis code used in Franklin, K. A. et al. (2022) **Individual consistency in migration strategies of a tropical seabird, the Round Island petrel**, *Movement Ecology*, which is available at xxx. 
+Archive of analysis code used in Franklin, K. A. et al. (2022) **Individual consistency in migration strategies of a tropical seabird, the Round Island petrel**, *Movement Ecology*, which is available [here](https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-022-00311-y). 
 
 This is a guide for how to do the main analyses presented in the manuscript. The raw geolocator files and tracking data used in this paper are not available here, but the latter is available for request from the Seabird Tracking Database (http://seabirdtracking.org/) using ID: 1810. Therefore, you will not be able to run the analysis using the Round Island petrel data, but the idea is that you should be able to edit the scripts provided here in order to run your own analyses.
 
