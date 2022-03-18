@@ -8,8 +8,8 @@ This is a guide for how to do the main analyses presented in the manuscript. The
 ## Steps:
 1. **Calculate petrel migration dates using hidden Markov model (HMM).** This step uses the raw light and immersion geolocator files, and processed geographic coordinates, to classify each day of GLS tracking as one of two behavioural states (*ashore on Round Island* or *at-sea*). Note, we use Migrate Tech and Intigeo geolocator tags.
    - 01_HMM_dates
-2. **Earth mover's distance (EMD).** Using the Round Island petrel tracking data (from the Seabird Tracking Database), we investigate similarities in migratory locations using EMD. For our analysis, we calculate EMD using the geographical coordinates directly as inputs.
-   - 02_script
+2. **Earth mover's distance (EMD).** Using the Round Island petrel tracking data (from the Seabird Tracking Database), we investigate similarities in migratory locations using EMD. For our analysis, we calculate EMD using the geographical coordinates directly as inputs. See this script for how we calculated and subsequently analysed our EMD data.
+   - 02_Calculating_EMD
 3. **Temporal repeatability.** Calculating repeatability of temporal parameters (arrival to and departure from colony, and duration of migration).
    - 03_script
 4. **Making figures/maps of petrel migrations**
